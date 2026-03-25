@@ -69,7 +69,7 @@ jobs:
   gradle-verify-clm:
     needs: prepare
     # yamllint disable-line rule:line-length
-    uses: lfit/releng-reusable-workflows/.github/workflows/composed-gradle-nexus-iq.yaml@21dee35da5cf13331dad63a2c81ae5bb6d023f95  # v0.2.25
+    uses: lfit/releng-reusable-workflows/.github/workflows/composed-gradle-nexus-iq.yaml@245e18fd11f255aecf542a5ccb6a73ac0576630d  # v0.2.31
     with:
       GERRIT_BRANCH: ${{ inputs.GERRIT_BRANCH }}
       GERRIT_CHANGE_ID: ${{ inputs.GERRIT_CHANGE_ID }}
